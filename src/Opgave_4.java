@@ -26,12 +26,12 @@ public class Opgave_4 {
         int b = bornInAYear(secondsInAYear());
         int d = deadInAYear(secondsInAYear());
         int growth = (growthInAYear(b, d));
-        System.out.println("The growth is "+growth);
+        System.out.println("The growth is: "+growth);
 
         int usaPop = 331002651;
         int sum = usaPop+growth;
         System.out.println("USA current pop: " + usaPop);
-        System.out.println("there will be "+sum+" americans in 2026");
+        System.out.println("there will be: "+sum+" americans in 2026");
 
     }
 }

@@ -44,6 +44,7 @@ public class Opgave_6 {
 
         removeAllMultiples(hundredNumbers,5);
 
+        //dette er en test for at se om metoden faktisk fjerne de tal den skal
         generateIntArrayList(hundredNumbersInOrder,1000,1);
         removeAllMultiples(hundredNumbersInOrder,3);
 
